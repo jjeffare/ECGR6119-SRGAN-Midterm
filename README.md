@@ -13,7 +13,7 @@ The SRGAN was trained for 150 epochs. Both classifiers were evaluated on the sam
 
 ## Files and saved models
 
-The main notebook is `ECGR6119_SRGAN_Midterm_Final_JJ.ipynb`. It includes completed training outputs, sample transformations, evaluation plots, and discussion.
+The main notebook is `ECGR6119_SRGAN_AIMidterm_Final_JJ.ipynb`. It includes completed training outputs, sample transformations, evaluation plots, and discussion.
 
 [Google Drive: saved models, checkpoints, and supporting results](https://drive.google.com/drive/folders/1BUVH5d1XEJW_7ABknc7cOrP-XzKFt3zp?usp=drive_link)
 
@@ -67,7 +67,7 @@ Model A uses ImageNet-pretrained MobileNetV2 with its feature extractor frozen, 
 
 The classifier uses binary cross-entropy and Adam with a learning rate of 0.001. The checkpoint with the lowest validation loss is selected.
 
-The original Model A training history and epoch count were unavailable in the supplied notebook. Its restored optional training block specifies five epochs as a reproduction schedule; this is not a verified record of the original training duration. The saved Model A weights are used for the reported results.
+Earlier original notebook versions confirm Model A’s five-epoch training configuration and selection of the checkpoint with the lowest validation loss. The final notebook preserves this configuration. A partial first-epoch log is available, but the complete original training history is not. The saved model and evaluation results are retained.
 
 ## SRGAN
 
