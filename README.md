@@ -33,6 +33,8 @@ The Drive folder must be accessible to the reviewer.
 
 The project reuses the Dogs vs Cats dataset from Assignment 1. The expected archive contains a `dogs-vs-cats-classification` directory with `train`, `validation`, and `test` subdirectories, each containing `cats` and `dogs` folders.
 
+[Download the Assignment 1 dataset archive](https://drive.google.com/drive/folders/1CDoVmP_cuL5W05KSIprXHmpYOdBoWva5?usp=drive_link). Open `dogs-vs-cats-classification` and download `archive.zip`. Place it at `/content/drive/MyDrive/Colab_Assignment1_AAI/dogs-vs-cats-classification/archive.zip`, or update `ARCHIVE` in the notebook to its location in your Drive. This is the archive used for the experiment; the original publisher URL and license are not recorded.
+
 Images from the original folders are collected, validated with Pillow, checked for exact duplicate file contents, and repartitioned using stratified sampling with random seed 42.
 
 | Partition | Images |
